@@ -1,0 +1,31 @@
+{
+  "name": "npm-north-american-number",
+  "version": "1.0.0",
+  "description": "coming soon.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylercaceres/npm-na-phonenumber.git"
+  },
+  "keywords": [
+    "north america",
+    "phone",
+    "number",
+    "phone number",
+    "validator",
+    "nanp",
+    "north america numbering plan"
+  ],
+  "author": "Tyler Caceres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tylercaceres/npm-na-phonenumber/issues"
+  },
+  "homepage": "https://github.com/tylercaceres/npm-na-phonenumber#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
