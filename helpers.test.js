@@ -16,4 +16,10 @@ describe("verify if valid North America Number", () => {
   it("additional characters in invalid number", () => {
     expect(verifyNANumber("+1-223-115-6789")).toBe(false);
   });
+  it("first number begins with 1", () => {
+    expect(verifyNANumber("+1-123-115-6789")).toBe(false);
+  });
+  it("first number begins with 0", () => {
+    expect(verifyNANumber("+1-023-115-6789")).toBe(false);
+  });
 });
