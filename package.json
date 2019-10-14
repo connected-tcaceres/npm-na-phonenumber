@@ -1,7 +1,7 @@
 {
   "name": "validate-na-number",
   "version": "1.0.0",
-  "description": "coming soon.",
+  "description": "Simple library to validate if a phone number is valid according to the North American Numbering Plan.",
   "main": "index.js",
   "scripts": {
     "test": "jest"
